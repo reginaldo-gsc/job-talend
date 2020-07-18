@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_R22CgK_8EeqawvAY6yFRsA" name="sinistro_vcas01" dataPackage="_R22Cga_8EeqawvAY6yFRsA" Server="Localhost 127.0.0.1" FilePath="C:/Users/reginaldo.santos/Documents/Projetos/Sinistro/Files/Base VCAS Mar-20.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="SQLT0035" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="SQLT0035:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+    <sheetColumns>L</sheetColumns>
+    <sheetColumns>M</sheetColumns>
+    <sheetColumns>N</sheetColumns>
+    <sheetColumns>O</sheetColumns>
+    <sheetColumns>P</sheetColumns>
+    <sheetColumns>Q</sheetColumns>
+    <sheetColumns>R</sheetColumns>
+    <sheetColumns>S</sheetColumns>
+    <sheetColumns>T</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_R22Cga_8EeqawvAY6yFRsA" name="default" dataManager="_R22CgK_8EeqawvAY6yFRsA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_R22Cgq_8EeqawvAY6yFRsA" id="_AJXUIK_8EeqawvAY6yFRsA" label="sinistro_vcas01">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_R22Cg6_8EeqawvAY6yFRsA" label="DATA_COMPETENCIA" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_R22ChK_8EeqawvAY6yFRsA" label="CONTA_SEQUENCIA" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_R22Cha_8EeqawvAY6yFRsA" label="SEGURADO_CODIGO_PF" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_R22Chq_8EeqawvAY6yFRsA" label="SEGURADO_SEQUENCIA" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_R22Ch6_8EeqawvAY6yFRsA" label="CARTEIRINHA" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_R22CiK_8EeqawvAY6yFRsA" label="RESCISAO_CONTRATO" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_R22Cia_8EeqawvAY6yFRsA" label="SEGURADO_FAIXA_ETARIA" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_R22Ciq_8EeqawvAY6yFRsA" label="MEDICO_SOLIC_DESCRICAO" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_R22Ci6_8EeqawvAY6yFRsA" label="MEDICO_EXECUTANTE" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_R22CjK_8EeqawvAY6yFRsA" label="ATENDIMENTO_TIPO" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_R22Cja_8EeqawvAY6yFRsA" label="GUIA_REFERENCIA" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_R22Cjq_8EeqawvAY6yFRsA" label="PRESTADOR_PGTO_DESCRICAO" length="35" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_R22Cj6_8EeqawvAY6yFRsA" label="GUIA_CARATER_INTERNACAO" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_R22CkK_8EeqawvAY6yFRsA" label="ITEM_GRUPO_ANS" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_R22Cka_8EeqawvAY6yFRsA" label="ITEM_TIPO" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_R22Ckq_8EeqawvAY6yFRsA" label="ITEM_DATA" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_R22Ck6_8EeqawvAY6yFRsA" label="ITEM_CODIGO" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_R22ClK_8EeqawvAY6yFRsA" label="ITEM_DESCRICAO" length="70" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_R22Cla_8EeqawvAY6yFRsA" label="QTDE_ITEM" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_R22Clq_8EeqawvAY6yFRsA" label="VALOR_LIBERADO" length="-1" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
